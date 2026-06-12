@@ -10,7 +10,6 @@ let package = Package(
     targets: [
         .target(
             name: "irondash_engine_context",
-            path: "Classes",
             publicHeadersPath: ".",
             cSettings: [.headerSearchPath(".")]
         )
